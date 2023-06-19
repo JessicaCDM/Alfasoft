@@ -49,8 +49,12 @@ namespace Contact_Management.Controllers
         [HttpPost]
         public IActionResult Create(ContactModel model)
         {
-            _contactRepository.Add(model);
-            return RedirectToAction("Index");
+            if(ModelState.IsValid)
+            {
+                _contactRepository.Add(model);
+                return RedirectToAction("Index");
+            }
+            return View(model);
         }
 
         [HttpPost]
