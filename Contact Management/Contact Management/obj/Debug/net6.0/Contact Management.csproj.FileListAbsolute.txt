@@ -29,3 +29,11 @@ D:\Alfasoft\Contact Management\Contact Management\obj\Debug\net6.0\refint\Contac
 D:\Alfasoft\Contact Management\Contact Management\obj\Debug\net6.0\Contact Management.pdb
 D:\Alfasoft\Contact Management\Contact Management\obj\Debug\net6.0\Contact Management.genruntimeconfig.cache
 D:\Alfasoft\Contact Management\Contact Management\obj\Debug\net6.0\ref\Contact Management.dll
+D:\Alfasoft\Contact Management\Contact Management\bin\Debug\net6.0\Humanizer.dll
+D:\Alfasoft\Contact Management\Contact Management\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Alfasoft\Contact Management\Contact Management\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Alfasoft\Contact Management\Contact Management\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Alfasoft\Contact Management\Contact Management\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Alfasoft\Contact Management\Contact Management\bin\Debug\net6.0\MySqlConnector.dll
+D:\Alfasoft\Contact Management\Contact Management\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+D:\Alfasoft\Contact Management\Contact Management\obj\Debug\net6.0\Contact Management.csproj.CopyComplete
