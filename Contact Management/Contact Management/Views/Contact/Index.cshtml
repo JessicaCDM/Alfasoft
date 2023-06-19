@@ -1,0 +1,32 @@
+﻿@{
+    ViewData["Title"] = "Contact List";
+}
+
+<h1 class="display-6">Lista de Contactos</h1>
+
+<div class="d-grid gap-2 d-md-flex justify-content-md-end">
+    <a class="btn btn-outline-secondary" asp-controller="Contact" asp-action="Create">Adicionar Contacto</a>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Nome</th>
+            <th scope="col"></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td style="text-align:end">
+                <div class="btn-group btn-group-sm" role="group" aria-label="Basic outlined example">
+                    <a role="button" class="btn btn-outline-info" asp-controller="Contact" asp-action="Details">Detalhe</a>
+                    <a role="button" class="btn btn-outline-primary" asp-controller="Contact" asp-action="Edit">Editar</a>
+                    <a role="button" class="btn btn-outline-danger" asp-controller="Contact" asp-action="ConfirmDelete">Apagar</a>
+                </div>
+            </td>
+        </tr>
+    </tbody>
+</table>

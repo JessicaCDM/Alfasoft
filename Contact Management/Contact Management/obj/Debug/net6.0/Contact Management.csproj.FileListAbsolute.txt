@@ -1,0 +1,31 @@
+D:\Alfasoft\Contact Management\Contact Management\bin\Debug\net6.0\appsettings.Development.json
+D:\Alfasoft\Contact Management\Contact Management\bin\Debug\net6.0\appsettings.json
+D:\Alfasoft\Contact Management\Contact Management\bin\Debug\net6.0\Contact Management.staticwebassets.runtime.json
+D:\Alfasoft\Contact Management\Contact Management\bin\Debug\net6.0\Contact Management.exe
+D:\Alfasoft\Contact Management\Contact Management\bin\Debug\net6.0\Contact Management.deps.json
+D:\Alfasoft\Contact Management\Contact Management\bin\Debug\net6.0\Contact Management.runtimeconfig.json
+D:\Alfasoft\Contact Management\Contact Management\bin\Debug\net6.0\Contact Management.dll
+D:\Alfasoft\Contact Management\Contact Management\bin\Debug\net6.0\Contact Management.pdb
+D:\Alfasoft\Contact Management\Contact Management\obj\Debug\net6.0\Contact Management.csproj.AssemblyReference.cache
+D:\Alfasoft\Contact Management\Contact Management\obj\Debug\net6.0\Contact Management.GeneratedMSBuildEditorConfig.editorconfig
+D:\Alfasoft\Contact Management\Contact Management\obj\Debug\net6.0\Contact Management.AssemblyInfoInputs.cache
+D:\Alfasoft\Contact Management\Contact Management\obj\Debug\net6.0\Contact Management.AssemblyInfo.cs
+D:\Alfasoft\Contact Management\Contact Management\obj\Debug\net6.0\Contact Management.csproj.CoreCompileInputs.cache
+D:\Alfasoft\Contact Management\Contact Management\obj\Debug\net6.0\Contact Management.MvcApplicationPartsAssemblyInfo.cache
+D:\Alfasoft\Contact Management\Contact Management\obj\Debug\net6.0\Contact Management.RazorAssemblyInfo.cache
+D:\Alfasoft\Contact Management\Contact Management\obj\Debug\net6.0\Contact Management.RazorAssemblyInfo.cs
+D:\Alfasoft\Contact Management\Contact Management\obj\Debug\net6.0\staticwebassets\msbuild.Contact Management.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Alfasoft\Contact Management\Contact Management\obj\Debug\net6.0\staticwebassets\msbuild.build.Contact Management.props
+D:\Alfasoft\Contact Management\Contact Management\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Contact Management.props
+D:\Alfasoft\Contact Management\Contact Management\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Contact Management.props
+D:\Alfasoft\Contact Management\Contact Management\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Alfasoft\Contact Management\Contact Management\obj\Debug\net6.0\staticwebassets.build.json
+D:\Alfasoft\Contact Management\Contact Management\obj\Debug\net6.0\staticwebassets.development.json
+D:\Alfasoft\Contact Management\Contact Management\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Alfasoft\Contact Management\Contact Management\obj\Debug\net6.0\scopedcss\bundle\Contact Management.styles.css
+D:\Alfasoft\Contact Management\Contact Management\obj\Debug\net6.0\scopedcss\projectbundle\Contact Management.bundle.scp.css
+D:\Alfasoft\Contact Management\Contact Management\obj\Debug\net6.0\Contact Management.dll
+D:\Alfasoft\Contact Management\Contact Management\obj\Debug\net6.0\refint\Contact Management.dll
+D:\Alfasoft\Contact Management\Contact Management\obj\Debug\net6.0\Contact Management.pdb
+D:\Alfasoft\Contact Management\Contact Management\obj\Debug\net6.0\Contact Management.genruntimeconfig.cache
+D:\Alfasoft\Contact Management\Contact Management\obj\Debug\net6.0\ref\Contact Management.dll
