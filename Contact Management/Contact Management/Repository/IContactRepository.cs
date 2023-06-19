@@ -8,5 +8,6 @@ namespace Contact_Management.Repository
         ContactModel Add(ContactModel contact);
         ContactModel GetId(int id);
         ContactModel Update(ContactModel contact);
+        bool Delete(int id);
     }
 }

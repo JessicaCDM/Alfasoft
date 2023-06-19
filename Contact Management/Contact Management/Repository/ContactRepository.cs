@@ -40,5 +40,16 @@ namespace Contact_Management.Repository
             _dataContext.SaveChanges();
             return contactModel;
         }
+
+        public bool Delete(int id)
+        {
+            ContactModel contactModel = GetId(id);
+            if (contactModel == null) throw new Exception("Erro ao Excluir contacto");
+
+            _dataContext.Contacts.Remove(contactModel);
+            _dataContext.SaveChanges();
+
+            return true;
+        }
     }
 }

@@ -35,9 +35,15 @@ namespace Contact_Management.Controllers
             return View(contact);
         }
 
-        public IActionResult ConfirmDelete()
+        public IActionResult ConfirmDelete(int id)
         {
-            return View();
+            ContactModel contact = _contactRepository.GetId(id);
+            return View(contact);
+        }
+        public IActionResult Delete(int id)
+        {
+            _contactRepository.Delete(id);
+            return RedirectToAction("Index");
         }
 
         [HttpPost]
