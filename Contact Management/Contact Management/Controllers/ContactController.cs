@@ -29,9 +29,10 @@ namespace Contact_Management.Controllers
             return View(contact);
         }
 
-        public IActionResult Details()
+        public IActionResult Details(int id)
         {
-            return View();
+            ContactModel contact = _contactRepository.GetId(id);
+            return View(contact);
         }
 
         public IActionResult ConfirmDelete()
