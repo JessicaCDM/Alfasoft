@@ -21,5 +21,24 @@ namespace Contact_Management.Repository
             _dataContext.SaveChanges();
             return contact;
         }
+
+        public ContactModel GetId(int id)
+        {
+            return _dataContext.Contacts.FirstOrDefault(x => x.Id == id);
+        }
+
+        public ContactModel Update(ContactModel contact)
+        {
+            ContactModel contactModel = GetId(contact.Id);
+            if (contactModel == null) throw new Exception("Erro ao Actualizar");
+            
+            contactModel.Name = contact.Name;
+            contactModel.Email = contact.Email;
+            contactModel.Phone = contact.Phone;
+
+            _dataContext.Contacts.Update(contactModel);
+            _dataContext.SaveChanges();
+            return contactModel;
+        }
     }
 }

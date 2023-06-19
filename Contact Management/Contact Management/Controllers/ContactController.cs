@@ -23,9 +23,10 @@ namespace Contact_Management.Controllers
             return View();
         }
 
-        public IActionResult Edit()
+        public IActionResult Edit(int id)
         {
-            return View();
+            ContactModel contact = _contactRepository.GetId(id);
+            return View(contact);
         }
 
         public IActionResult Details()
@@ -42,6 +43,13 @@ namespace Contact_Management.Controllers
         public IActionResult Create(ContactModel model)
         {
             _contactRepository.Add(model);
+            return RedirectToAction("Index");
+        }
+
+        [HttpPost]
+        public IActionResult Edit(ContactModel model)
+        {
+            _contactRepository.Update(model);
             return RedirectToAction("Index");
         }
 

@@ -6,5 +6,7 @@ namespace Contact_Management.Repository
     {
         List<ContactModel> GetAll();
         ContactModel Add(ContactModel contact);
+        ContactModel GetId(int id);
+        ContactModel Update(ContactModel contact);
     }
 }
